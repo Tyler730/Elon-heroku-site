@@ -1,0 +1,263 @@
+/*=================== LAYOUTS ======================*/
+body {
+   /* background: linear-gradient(to right, #bd8c7d, #d1bfa7, #8e8e90, #49494b);*/
+    background-color: white;
+    margin: 0px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+}
+
+#header {
+    margin: 0px;
+    padding: 0px;
+    background-color: #33363b;
+    height: 90px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    text-align: center;
+}
+
+#navbar ul {
+    list-style-type: none;
+    text-align: center;
+    padding: 5px;
+    margin: 10px;
+    background-color: #33363b;
+    border-radius: 5px;
+}
+
+#navbar ul li {
+    padding: 10px;
+    margin: 5px;
+    text-decoration: none;
+    display: inline;
+    text-align: center;
+}
+
+#navbar ul li a {
+    text-decoration: none;
+    font-family: Arial;
+    padding: .2em 1em;
+    color: #fff;
+    background-color: #33363b;
+}
+
+#navbar a:hover {
+    color: black;
+    background-color: #eaeaea;
+}
+
+.main {
+    margin: 10px 330px 10px 10px;
+    background-color: #eaeaea;
+    border-radius: 5px;
+    padding: 20px;
+    font-size: 110%;
+    line-height: 1.5em;
+}
+
+.sideright {
+    clear: right;
+    background-color: #eaeaea;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    padding: 20px;
+    font-size: 88%;
+    float: right;
+    width: 260px;
+    border: #33363b 1px solid;
+    line-height: 1.5em;
+}
+/*
+.imagesidebar {
+    clear: right;
+    margin-right: 10px;
+    margin-left: 10px;
+    margin-top: 0px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    float: right;
+    width: 300px;
+    opacity: 1.0;
+    transition: opacity 1s ease-in-out;
+}
+*/
+
+.imagesidebar:hover {
+    opacity: 0.4;
+}
+
+#footer {
+    background-color: #33363b;
+    margin-top: 10px;
+    margin-right: 0px;
+    margin-left: 0px;
+    margin-bottom: 0px;
+    height: 60px;
+    clear: both;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    text-align: center;
+    color: white;
+}
+
+/*=================== HEADINGS ======================*/
+
+h1 {
+    color: #368cbf;
+    font-size: 130%;
+}
+
+h2 {
+    font-size: 120%;
+    color: #368cbf;
+}
+
+h2.elon {
+    color: #33363b;
+    font-size: 120%;
+    text-align: center;
+}
+
+h3.elon {
+ 
+    /*color: #7ebc59; this is the green you are looking for*/
+    font-size: 250%;
+    font-family: 'Century gothic', 'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', sans-serif;
+    color: #fff;
+    text-align: center;
+    margin: 0%;
+
+    
+}
+
+/*==================== SPANS ======================*/
+
+/*.techwars {
+    padding-top: 50;
+    color: aquamarine;
+}*/
+
+
+
+
+
+
+
+/*position: relative;
+top:50%;
+-webkit-transform: translatey(-50%);
+-ms-transform: translatey(-50%);
+transform:translatey(-50%);
+
+/*=================== IMAGES ======================*/
+
+.musk {
+    border: black solid 1px;
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.ai {
+
+    max-height: 100%;
+    max-width: 100%;
+    float: left;  
+    position: relative;
+
+}
+
+.air {
+    float: right;
+    max-width: 100%;
+    max-height: 100%;
+    opacity: 0.0;
+    position: relative;
+}
+
+/*=================== TABLES ======================*/
+
+th, td {
+    vertical-align: top;
+    text-align: left;
+}
+
+th {
+display: table-cell;   
+}
+
+/*=================== FOOTER ======================*/
+
+#footer {
+    position: relative;
+    bottom: 0%;
+}
+
+#footer ul {
+    /*list-style-type: none;*/
+    text-align: center;
+    padding: 5px;
+    margin: 10px;
+    background-color: #33363b;
+    border-radius: 5px;
+}
+
+#footer ul li {
+    padding: 10px;
+    margin: 5px;
+    text-decoration: none;
+    display: inline;
+    text-align: center;
+}
+
+#footer ul li a {
+    text-decoration: none;
+    font-family: Arial;
+    padding: .2em 1em;
+    color: #fff;
+    background-color: #33363b;
+}
+
+#footer a:hover {
+    color: black;
+    background-color: #eaeaea;
+}
+
+/*=================== Media Resize ======================*/
+
+@media (max-width: 600px) {
+
+    h3 {
+        font-size: 150%;
+    }
+
+    .sideright {
+        width: 150px;
+    }
+
+    .main {
+        margin-right: 210px;
+        font-size: 12px;
+    }
+
+    #header {
+        height: 45px;
+    }
+
+    #navbar ul li a {
+        font-size: 13px;
+    }
+
+    #footer {
+        font-size: 10px;
+    }
+
+    #footer ul li a {
+        font-size: 13px;
+    }
+
+    th, td {
+        font-size: 11px;
+    }
+}
