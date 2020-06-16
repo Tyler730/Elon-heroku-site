@@ -1,4 +1,4 @@
-# html-css
+# 1 page html css site hosted on heroku
 https://thetechwarriors.herokuapp.com/
 this is just a 1 page pure html/css page no bootstrap nothing fancy or precoded
 
